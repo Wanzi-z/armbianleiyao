@@ -1,0 +1,12 @@
+# Rockchip RK3568 quad core 2GB RAM SoC WIFI/BT eMMC USB2
+BOARD_NAME="wb1x-3568"
+BOARDFAMILY="rk35xx"
+BOOTCONFIG="rk3568_defconfig"
+KERNEL_TARGET="edge"
+FULL_DESKTOP="yes"
+BOOT_LOGO="desktop"
+BOOT_FDT_FILE="rockchip/rk3568-wb18.dtb"
+IMAGE_PARTITION_TABLE="gpt"
+BOOT_SCENARIO="spl-blobs"
+WIREGUARD="no"
+BOOTFS_TYPE="fat"
